@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header .navbar .navbar-brand{
+    font-size: 2rem;
+
+}
+
+#basic-addon1{
+    border: none;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.input-group-text i{
+    cursor: pointer;
+}
+
+.input-group input{
+    border: none;
+    background-color: white;
+}
+
+header .form-inline{
+    position: absolute;
+    right: 130px;
+}
+
+header .moon{
+    position: absolute;
+    right: 93px;
+    font-size: 25px;
+    color: white;
+}
+
+header .navbar-toggler{
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header .navbar{
+    background-color: black;
+    
+}
+
+header .navbar-nav .nav-item .nav-link{
+    color: white;
+}
