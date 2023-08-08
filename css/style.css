@@ -55,9 +55,15 @@ header .moon{
 
 header .navbar-toggler{
     border: none;
-    font-size: 25px;
-    font-weight: bold;
 }
+
+header .navbar-toggler i{
+    color: white;
+    font-size: 30px;
+    
+}
+
+
 
 
 
