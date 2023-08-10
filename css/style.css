@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+}
+
+header .contaiiner{
+    width: 79%;
+    margin: auto;
+}
+
+header .navbar .navbar-brand{
+    font-size: 2rem;
+}
+
+header .navbar .navbar-brand{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#basic-addon1{
+    border: none;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.input-group-text i{
+    cursor: pointer;
+}
+
+.input-group input{
+    border: none;
+    background-color: white;
+}
+
+header .form-inline{
+    
+    padding-left: 655px;
+}
+
+header .moon{
+    
+    font-size: 25px;
+    color: white;
+}
+
+header .navbar-toggler{
+    border: none;
+}
+
+header .navbar-toggler i{
+    color: white;
+    font-size: 30px;
+    
+}
+
+#collapsibleNavbar{
+    background-color: black;
+    opacity: 0.9;
+}
+
+.navbar-nav a{
+    color: red;
+}
+
+header .navbar-nav .nav-item .nav-link{
+    color: white;
+}
+
+#carousel{
+    background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),
+    url(../images/banner1.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+#carousel .container{
+    max-width: 1200px;
+}
+
+.carousel__text{
+   max-width: 600px;
+   text-align: left;
+}
+
+.carousel__text h1{
+    color: #fff;
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.carousel__text p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.button{
+    padding: 15px 45px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+
+
+.button:hover{
+    background: #fff;
+    border: 2px solid #fff;
+    color: #ff6600;
+}
+
+#carousel .carousel__content{
+    padding-top: 150px;
+} 
