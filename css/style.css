@@ -46,7 +46,7 @@ header .form-inline{
 }
 
 header .moon{
-    
+
     font-size: 25px;
     color: white;
 }
@@ -127,3 +127,12 @@ header .navbar-nav .nav-item .nav-link{
 #carousel .carousel__content{
     padding-top: 150px;
 } 
+
+.aboutus__content .aboutus__title h6{
+    color: #ff6600;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    font-weight: 400;
+}
