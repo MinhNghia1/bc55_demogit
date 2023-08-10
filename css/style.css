@@ -17,7 +17,6 @@ header .contaiiner{
 
 header .navbar .navbar-brand{
     font-size: 2rem;
-
 }
 
 header .navbar .navbar-brand{
@@ -42,13 +41,12 @@ header .navbar .navbar-brand{
 }
 
 header .form-inline{
-    position: absolute;
-    right: 130px;
+    
+    padding-left: 655px;
 }
 
 header .moon{
-    position: absolute;
-    right: 93px;
+    
     font-size: 25px;
     color: white;
 }
@@ -63,9 +61,14 @@ header .navbar-toggler i{
     
 }
 
+#collapsibleNavbar{
+    background-color: black;
+    opacity: 0.9;
+}
 
-
-
+.navbar-nav a{
+    color: red;
+}
 
 header .navbar-nav .nav-item .nav-link{
     color: white;
