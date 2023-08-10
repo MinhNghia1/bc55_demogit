@@ -128,6 +128,10 @@ header .navbar-nav .nav-item .nav-link{
     padding-top: 150px;
 } 
 
+.aboutus__content .aboutus__title{
+    margin-left: -30px;
+}
+
 .aboutus__content .aboutus__title h6{
     color: #ff6600;
     letter-spacing: 1px;
@@ -135,4 +139,91 @@ header .navbar-nav .nav-item .nav-link{
     font-family: 'Pacifico', cursive;
     font-size: 20px;
     font-weight: 400;
+}
+
+.aboutus__content .aboutus__title p{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+.aboutus__content .aboutus__lorem{
+    color: rgb(91 96 108);
+    font-size: 18px;
+   margin-left: 30px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book__content .book__img{
+    background-image: url(../images/image04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+}
+
+.book__content .book__img::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.book__right{
+   background-color: #ff6600;
+   padding: 60px 80px;
+}
+
+.book__right .book__header h5{
+    color: #fff;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px
+}
+
+.book__right .book__header h3{
+    font-weight: 600;
+    line-height: 48px;
+    font-size: 38px;
+}
+
+.book__right .book__header p{
+    color: #ffdfc9;
+    font-size: 18px;
+}
+
+.book__footer .row i{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background-color: white;
+    font-size: 23px;
+    border-radius: 10px;
+    color: #ff6600;
+    transition: all 0.5s;
+}
+
+.book__footer .col-md-6:hover i{
+    color: #fcb900;
+}
+
+.book__footer .row h5{
+    font-weight: bold;
+}
+
+.book__footer .row p{
+    color: #ffdfc9;
+    font-size: 18px;
 }
